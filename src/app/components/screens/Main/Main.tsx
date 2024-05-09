@@ -28,7 +28,7 @@ export const Main = () => {
   }, [curX, curY]);
 
   return (
-    <main>
+    <main className={styles.main}>
       <Container>
         <Block />
         <div className={styles.gradientBg}>

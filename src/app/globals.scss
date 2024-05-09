@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --color-bg1: rgb(32, 0, 177);
+  --color-bg1: rgb(31, 0, 167);
   --color-bg2: rgb(69, 0, 97);
   --color1: 18, 113, 255;
   --color2: 221, 74, 255;
@@ -28,9 +28,7 @@
   margin: 0;
 }
 body {
-  // background-color: #420064;
-  background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
-  height: 100vh;
+  // background-color: var(--color-bg1);
   overflow: hidden;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
