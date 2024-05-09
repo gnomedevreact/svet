@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Ephesis } from "next/font/google";
+
+const ephesis = Ephesis({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={ephesis.className}>{children}</body>
     </html>
   );
 }
