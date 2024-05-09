@@ -28,7 +28,8 @@
   margin: 0;
 }
 body {
-  background-color: #420064;
+  // background-color: #420064;
+  background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
   overflow: hidden;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
