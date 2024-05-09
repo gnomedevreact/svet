@@ -29,9 +29,14 @@
 }
 body {
   // background-color: var(--color-bg1);
+  @apply select-none;
   overflow: hidden;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
 }
 img,
 picture,
